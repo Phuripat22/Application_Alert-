@@ -1,0 +1,7 @@
+node_modules/
+project-app/node_modules/
+
+.expo/
+.vscode/
+
+.env
