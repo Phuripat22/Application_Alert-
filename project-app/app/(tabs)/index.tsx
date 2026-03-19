@@ -26,7 +26,7 @@ export default function App() {
 
     const fetchSensorData = async () => {
       try {
-        const response = await fetch("http://192.168.1.107/api/sensor");
+        const response = await fetch("http://192.xx.xxx/api/sensor");
         const data = await response.json();
         setSensorData(data);
       } catch (error) {
